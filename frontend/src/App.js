@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navigation from './components/Navigation'; // Import the Navigation component
 import LoginPage from './components/LoginPage'; // Assuming you have a login page component
 import AccountCreationPage from './components/AccountCreationPage'; // Assuming you have an account creation page component
+import ProfileManagementPage from './pages/ProfileManagementPage';
 
 const App = () => {
   return (
